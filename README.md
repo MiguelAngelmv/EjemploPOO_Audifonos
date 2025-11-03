@@ -19,16 +19,16 @@ Verifica tu versión de Java:
 java -version
 Abrir en IntelliJ IDEA
 
-Abre IntelliJ IDEA.
+Abrir IntelliJ IDEA.
 
 Ve a File → Open y selecciona la carpeta del proyecto.
-4. Ejecutar el programa
+Ejecutar el programa
 
 Ubica el archivo principal con el método main, por ejemplo:
 
 public class Main {
 public static void main(String[] args) {
-// tu código aquí
+// el codigo XD
 }
 }
 
@@ -36,10 +36,14 @@ Luego haz clic en ▶️ (Run) para ejecutar.
 
 Estructura del proyecto
 src/
+
 ├── interfaces/
 │    └── Conectable.java
+
 ├── models/
 │    └── Audifonos.java
+
 ├── utils/
 │    └── ControladorAudio.java
+
 └── Main.java
